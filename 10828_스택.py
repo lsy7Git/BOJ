@@ -7,9 +7,9 @@
 import sys
 input = sys.stdin.readline
 
-stack = []
-
 N = int(input())
+
+stack = []
 
 for _ in range(0,N):
     word = input().split()
